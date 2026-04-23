@@ -1,8 +1,8 @@
-# PSO-Eigen: 高性能粒子群优化算法库
+# PSO-High-Performance: 高性能粒子群优化算法库
 
 ## 项目简介
 
-PSO-Eigen 是一个基于 C++/Eigen 和 Python 的高性能粒子群优化（Particle Swarm Optimization, PSO）算法库。本项目基于高性能C++线性代数库Eigen, 通过向量化计算显著提升了大规模优化问题的求解效率。
+PSO-High-Performance 是一个基于 C++/Eigen 和 Python 的高性能粒子群优化（Particle Swarm Optimization, PSO）算法库。本项目基于高性能C++线性代数库Eigen, 通过向量化计算显著提升了大规模优化问题的求解效率。
 
 ## ✨ 核心特性
 
@@ -27,8 +27,8 @@ PSO-Eigen 是一个基于 C++/Eigen 和 Python 的高性能粒子群优化（Par
 
 ```bash
 # 1. 克隆项目
-git clone https://github.com/yourusername/pso-eigen.git
-cd pso-eigen
+git clone https://github.com/yourusername/PSO-High-Performance.git
+cd PSO-High-Performance
 
 # 2. 创建并激活虚拟环境（推荐）
 python -m venv venv
@@ -298,4 +298,4 @@ def ackley_function(positions):
 
 ---
 
-**开始优化吧！** 🚀 使用 PSO-Eigen 解决您的优化问题，享受高性能计算带来的效率提升！
+**开始优化吧！** 🚀 使用 PSO-High-Performance 解决您的优化问题，享受高性能计算带来的效率提升！
