@@ -271,22 +271,16 @@ def ackley_function(positions):
 ## 📁 项目结构
 
 ```
-pso-eigen/
-├── README.md                 # 项目说明文档
-├── CMakeLists.txt           # CMake 配置文件
-├── pso_core.cpp            # 原始实现核心代码
-├── pso_core_eigen.cpp      # Eigen 加速核心代码
-├── pso_bindings.cpp        # 原始版本 Python 绑定
-├── pso_bindings_eigen.cpp  # Eigen 版本 Python 绑定
-├── pso_demo.py             # 基本使用示例
-├── pso_parallel.py         # 并行计算示例
-├── examples/               # 更多示例
-│   ├── benchmark.py        # 性能对比测试
-│   ├── high_dimension.py   # 高维问题示例
-│   └── custom_function.py  # 自定义函数示例
-└── tests/                  # 单元测试
-    ├── test_basic.py       # 基本功能测试
-    └── test_performance.py # 性能测试
+├── src
+│   ├── pso_bindings.cpp
+│   ├── pso_core.cpp    
+│   └── pso_core.hpp    
+├── wrapper
+│   ├── pso_demo.py     
+│   └── pso_parallel.py 
+├── README.md
+├── setup.py
+└── test_core.cpp
 ```
 
 ## 📄 许可证
