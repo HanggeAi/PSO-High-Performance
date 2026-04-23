@@ -258,15 +258,6 @@ def ackley_function(positions):
 | `plot_convergence()` | 无 | 绘制收敛曲线 |
 | `plot_particles(iteration=-1)` | 迭代次数（默认最后一代） | 绘制粒子分布 |
 
-## 🔄 版本选择指南
-
-| 场景 | 推荐版本 | 原因 |
-|------|----------|------|
-| 快速原型开发 | 原始版本 (pso) | 编译简单，调试方便 |
-| 高维问题 (>50维) | Eigen 版本 (pso_eigen) | 向量化计算显著加速 |
-| 大规模粒子群 (>1000粒子) | Eigen 版本 (pso_eigen) | 内存效率更高 |
-| 计算密集型适应度函数 | ParallelPSOWrapper | 并行计算加速 |
-| 需要自定义修改 | 原始版本 (pso) | 代码更简单易懂 |
 
 ## 📁 项目结构
 
