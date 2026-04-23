@@ -101,7 +101,7 @@ best_fitness = optimizer.get_best_fitness()
 print(f"\n优化完成!")
 print(f"最优适应度: {best_fitness:.6e}")
 print(f"最优解: {best_position}")
-
+```
 
 ### 使用 PSOWrapper（推荐）
 
